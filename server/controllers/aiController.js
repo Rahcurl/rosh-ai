@@ -197,6 +197,8 @@ async function geminiChatCompletionsCreateWithFallback(body) {
       throw err;
     }
   }
+
+  /* aiController*/
 }
 
 function sniffImageMime(buffer) {
